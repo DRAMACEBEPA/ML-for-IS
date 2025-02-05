@@ -10,7 +10,7 @@ from tensorflow.keras.layers import Dense
 
 # === Параметры ===
 TRAINING_PERIOD = 24 * 60 * 60  # Период сбора обучающей выборки (24 часа)
-CAPTURE_INTERFACE = "eth0"  # Сетевой интерфейс для захвата трафика
+CAPTURE_INTERFACE = "eth0"  # Сетевой интерфейс для захвата трафика на выбор ls link show
 MODEL_PATH = "anomaly_detection_model.h5"  # Путь для сохранения/загрузки модели
 SPECIAL_SYMBOLS = "!@#$%^&*()-+"
 
